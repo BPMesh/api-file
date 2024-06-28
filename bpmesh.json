@@ -1,0 +1,54 @@
+{
+  "api": "0.5.2",
+  "name": "BPMesh",
+  "url": "https://hsbp.org/BPMesh",
+  "location": {
+    "city": "Budapest",
+    "country": "HU",
+    "address": {
+      "zipcode": "1056",
+      "name": "Hackerspace Budapest",
+      "street": "Bástya utca 12"
+    },
+    "geoCode": {
+      "lat": 47.48914423820123,
+      "lon": 19.059519386725828
+    }
+  },
+  "state": {
+    "nodes": 1,
+    "lastchange": "2024-06-28T16:40:00+00:00",
+    "message": "Open for public",
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Local services and content"
+    ]
+  },
+  "contact": {
+    "email": "bpmesh@proton.me"
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon"
+    },
+    "networks": {
+      "ipv6": [
+        {
+          "network": "fd18:79f4:e0ab:7816::/64"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "172.21.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual"
+    ]
+  }
+}
